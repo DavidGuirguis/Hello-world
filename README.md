@@ -13,5 +13,7 @@
         // redirect to home page
         if(X.Web.WebContext.Current.Application.DefaultUrl != null)
             Response.Redirect(X.Web.WebContext.Current.Application.DefaultUrl );
+        
+        //<code_tag_01>
     }
 </script>
