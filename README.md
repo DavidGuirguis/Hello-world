@@ -3,6 +3,7 @@
     protected override void Construct() {
         base.Construct();
         HasLayout = false;
+        //<code_tag_03>
     }
 
     void Page_Load(object sender, System.EventArgs e) {
