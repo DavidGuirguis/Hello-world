@@ -15,5 +15,6 @@
             Response.Redirect(X.Web.WebContext.Current.Application.DefaultUrl );
         
         //<code_tag_01>
+        //<code_tag_02>
     }
 </script>
