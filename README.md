@@ -3,6 +3,7 @@
     protected override void Construct() {
         base.Construct();
         HasLayout = false;
+        //<code_tag_03>
     }
 
     void Page_Load(object sender, System.EventArgs e) {
@@ -13,5 +14,8 @@
         // redirect to home page
         if(X.Web.WebContext.Current.Application.DefaultUrl != null)
             Response.Redirect(X.Web.WebContext.Current.Application.DefaultUrl );
+        
+        //<code_tag_01>
+        //<code_tag_02>
     }
 </script>
